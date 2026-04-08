@@ -1,0 +1,67 @@
+:root {
+    --text-color: white;
+    --text-color-hover: rgb(190, 190, 190);
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+
+    background-color: #151515;
+    color: var(--text-color);
+}
+
+html, body {
+    padding: 0;
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    padding-top: 2em;
+    text-align: center;
+}
+
+.game-selection {
+    font-size: 35px;
+    padding-top: 1em;
+
+    p {
+        margin-bottom: 0.9em;
+    }
+}
+
+.game-menu {
+    text-align: center;
+    margin-top: 0.3em;
+}
+
+.menu-item {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    margin-top: 0.3em;
+
+    a {
+        all: unset;
+        cursor: pointer;
+
+        padding: 5px;
+        font-size: 23px;
+
+        transition: 0.2s ease;
+    }
+
+    a:hover {
+        color: var(--text-color-hover);
+    }
+}
+
+.submenu.active {
+    display: flex;
+}
