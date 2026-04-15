@@ -15,7 +15,7 @@
     <h1>Witamy na stronie Ukaszowy poradnik!</h1>
     
     <div class="game-selection">
-        <p>Proszę wybrać katalog gierki:</p>
+        <p>Proszę wybrać katalog gier:</p>
     
         <div class="game-menu">
             <div class="menu-item" onclick="toggleMenu(this)">
@@ -36,7 +36,7 @@
     
             <div class="submenu">
                 <a href="#">COD: BO1</a>
-                <a href="#">COD: MW</a>
+                <a href="#">COD 4: MW</a>
                 <a href="#">COD: BO2</a>
             </div>
         </div>
